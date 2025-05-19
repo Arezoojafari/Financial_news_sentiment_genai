@@ -2,7 +2,7 @@
 **Gemini + RAG + Few-Shot Prompting | Google GenAI Intensive Project**
 
 **Author:** Arezoo Jafari  
-**Tools:** Python · scikit-learn · pandas · matplotlib · seaborn · Jupyter Notebook
+**Tools:** Google Gemini 2.0 Flash (LLM), NewsAPI, Vector Embeddings, FAISS (Facebook AI Similarity Search for vector retrieval), Python, JSON for structured outputs
 
 ---
 
