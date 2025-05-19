@@ -67,7 +67,7 @@ Design an **end-to-end GenAI pipeline** that:
 ]
 ```
 ---
-### Tech Stack
+## Tech Stack
 
 -  Google Gemini 2.0 Flash (LLM)
 -  NewsAPI
