@@ -65,7 +65,7 @@ Design an **end-to-end GenAI pipeline** that:
     "matched_sentiment": "neutral"
   }
 ]
-'''
+```
 ---
 ### Tech Stack
 
