@@ -38,7 +38,7 @@ Design an **end-to-end GenAI pipeline** that:
 
 ### 2. Semantic Retrieval
 - Encode both real-time and labeled news headlines using sentence embeddings.
-- Compute **cosine similarity** to identify the top-1 matched labeled example for each real-time headline.
+- Use FAISS to perform fast approximate nearest neighbor search on normalized embedding vectors to retrieve the most semantically similar labeled example for each real-time headline.
 
 ### 3. Prompt Construction (Few-Shot)
 - Randomly sample 10 labeled examples.
@@ -65,22 +65,14 @@ Design an **end-to-end GenAI pipeline** that:
     "matched_sentiment": "neutral"
   }
 ]
-## Tech Stack
+
+---
+### Tech Stack
 
 -  Google Gemini 2.0 Flash (LLM)
 -  NewsAPI
 -  Sentence-Transformers
--  Cosine Similarity
+-  FAISS (Facebook AI Similarity Search for vector retrieval)
 -  Python
 -  JSON for structured outputs
 
----
-
-## Installation
-
-> ⚠️ Note: You need access to both NewsAPI and Gemini API keys.
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/llm-finance-sentiment.git
-cd llm-finance-sentiment
