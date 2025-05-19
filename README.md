@@ -64,10 +64,10 @@ Design an **end-to-end GenAI pipeline** that:
 ```json
 [
   {
-    "real_time_news": "Federal Reserve signals rate hike pause.",
+    "matched_sentiment": "neutral",
     "matched_example": "Fed holds rates steady amid economic slowdown.",
-    "predicted_sentiment": "neutral",
-    "matched_sentiment": "neutral"
+    "real_time_news": "Federal Reserve signals rate hike pause.",
+    "predicted_sentiment": "neutral"
   }
 ]
 ```
