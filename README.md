@@ -1,6 +1,11 @@
 # LLM-Powered Sentiment Analysis for Real-Time Financial News  
 **Gemini + RAG + Few-Shot Prompting | Google GenAI Intensive Project**
 
+**Author:** Arezoo Jafari  
+**Tools:** Python · scikit-learn · pandas · matplotlib · seaborn · Jupyter Notebook
+
+---
+
 ## 🔍 Overview
 
 This project addresses a common challenge in financial analytics: how can decision-makers quickly assess market sentiment without manually reading dozens of news articles?
