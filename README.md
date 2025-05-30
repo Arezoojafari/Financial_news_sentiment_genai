@@ -39,7 +39,7 @@ Answering these questions manually by reading dozens of news articles is time-co
 3. **Index the labeled dataset with FAISS** to enable fast vector similarity search.
 4. For each real-time headline:
    - Use **FAISS** to retrieve the top-1 semantically closest labeled example.
-   - Sample 100 labeled examples to construct a **few-shot prompt**.
+   - Use a sample of labeled examples to construct a **few-shot prompt**.
    - Send the prompt to **Gemini 2.0 Flash** for sentiment prediction.
 5. Parse and return the results as structured **JSON**.
 
