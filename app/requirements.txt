@@ -1,0 +1,6 @@
+requests
+faiss-cpu
+google-genai
+google-adk
+streamlit
+python-dotenv

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Database & artifacts
+*.db
+*.sqlite
+*.pkl
+*.json
+
+# FAISS index files
+*.index
+
+# Logs and checkpoints
+*.log
+logs/
+checkpoints/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore test outputs / cache
+*.out
+*.tmp
+*.cache/
+
